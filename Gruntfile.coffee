@@ -14,7 +14,7 @@ module.exports = (grunt) ->
     watch:
       test:
         options:
-          spawn: false
+          spawn: true
           atBegin: true
         files: ['src/**/*.coffee', 'spec/**/*.coffee']
         tasks: ['mochaTest']
