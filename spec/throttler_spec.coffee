@@ -1,4 +1,5 @@
 Throttler = require '../src/throttler'
+lodash = require 'lodash'
 
 describe 'Throttler', ->
 
@@ -7,7 +8,7 @@ describe 'Throttler', ->
 
     @callback = sinon.stub()
 
-    @subject = new Throttler(@callback, 500)
+    @subject = new Throttler(@callback, 500, lodash.runInContext())
 
   afterEach ->
     @clock.restore()
