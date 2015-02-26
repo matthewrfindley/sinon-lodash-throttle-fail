@@ -1,0 +1,32 @@
+{
+  "name": "sinon-lodash-throttle-fail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "author": "",
+  "license": "ISC",
+  "dependencies"                :
+  {
+    "coffee-script"             : "*",
+    "lodash"                    : "*"
+  },
+  "engines"                     :
+  {
+    "node"                      : ">=0.8.4",
+    "npm"                       : ">=1.1.0"
+  },
+  "devDependencies"             :
+  {
+    "grunt"                     : "*",
+    "grunt-cli"                 : "*",
+    "grunt-mocha-test"          : "*",
+    "grunt-contrib-watch"       : "*",
+    "grunt-shell"               : "*",
+    "mocha"                     : "*",
+    "sinon"                     : "*",
+    "chai"                      : "*",
+    "sinon-chai"                : "*",
+    "mocha-teamcity-reporter"   : "*"
+  },
+  "private"                     : true
+}
